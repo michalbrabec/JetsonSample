@@ -2,6 +2,13 @@
 
 Small sample application for Nvidia Jetson Nano focused mainly on the remote build, deployment and debugging.
 
+## Jetson Nano Setup
+
+- Prepare the Jetson microSD card according to the following [instructions](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
+- Boot Jetson Nano with keyboard and display to verif basic functionality
+- Setup SSH connection including the [keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2) for connection without password
+- Connect to the same network and verify connection over SSH
+
 ## Windows Setup
 
 - Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
@@ -16,7 +23,7 @@ Small sample application for Nvidia Jetson Nano focused mainly on the remote bui
 - In remote WSL vscode, install the extension [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) under WSL:Ubuntu
 - Clone this repository somewhere to windows FS
 - In remote WSL vscode, open the root folder (/mnt/c/...)
-- Commands:
+- Important commands:
   - Build Ctrl+Shift+B
   - Debug F5
  
