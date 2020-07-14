@@ -14,6 +14,7 @@ Small sample application for Nvidia Jetson Nano focused mainly on the remote bui
 - Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - Install latest Ubuntu distribution for WSL
 - Download the Nvidia Jetson toolchain [here](https://developer.nvidia.com/embedded/dlc/l4t-gcc-7-3-1-toolchain-64-bit)
+  - Extract the archive into /opt/
 - In WSL, install the following libraries required by GDB for Jetson Nano
   - sudo apt-get install libncurses5
   - sudo apt-get install libpython2.7
